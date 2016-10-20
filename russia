@@ -1,0 +1,50 @@
+speed 1000
+pen black,2 
+slide 100,0 
+slide 0,50
+slide -100, 0
+slide 0,-50
+pen white, .01
+rt 90
+fd 10
+lt 90
+fd 10
+box red, 20
+rt 90
+fd 20
+box red, 20
+fd 20
+box red, 20
+fd 20
+box red, 20
+fd 20
+box red, 20
+fd 2
+lt 90 
+fd 20
+lt 90
+box blue, 20
+fd 20
+box blue,20
+fd 20 
+box blue, 20
+fd 20
+box blue, 20
+fd 20
+box blue, 20
+fd 2
+rt 90 
+fd 20
+rt 90
+box white, 20
+fd 20
+box white,20
+fd 20 
+box white, 20
+fd 20
+box white, 20
+fd 20
+box white, 20
+jumpto 0,-50
+lt 90
+label 'GO Russia!'
